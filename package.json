@@ -1,0 +1,40 @@
+{
+  "name": "askblocker",
+  "version": "1.0.0",
+  "description": "Browser extensions which block overly-eager permission requests for notifications, location, etc. For example, ones that happen before you've interacted with the page.",
+  "main": "src/content.js",
+  "scripts": {
+    "compile": "node docs/compile.js",
+    "test": "echo \"See test/README.md\""
+  },
+  "keywords": [
+    "chrome",
+    "firefox",
+    "extension",
+    "add-on",
+    "chrome-extension",
+    "firefox-extension",
+    "firefox-add-on",
+    "permission",
+    "notifications",
+    "geolocation",
+    "location",
+    "midi",
+    "request",
+    "blocker"
+  ],
+  "author": "adam lynch <contact@adamlynch.com>",
+  "license": "MIT",
+  "homepage": "https://adamlynch.com/askblocker",
+  "repository": "https://github.com/adam-lynch/askblocker",
+  "bugs": {
+    "url": "https://github.com/adam-lynch/askblocker/issues"
+  },
+  "devDependencies": {
+    "is-image": "^2.0.0",
+    "is-relative-url": "^2.0.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-replace-link": "^1.0.1",
+    "nunjucks": "^3.1.0"
+  }
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AskBlocker</title>
+    <base target="_blank">
+    <link href="popup.css" rel="stylesheet">
+    <script src="browser-polyfill.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <header class="head">
+      <img class="head__icon" src="icons/askBlocker-48.png">
+      <h1 class="head__title"><span class="head__title-emphasis">Ask</span>Blocker</h1>
+    </header>
+    <main id="main">
+      <p id="requests-summary"></p>
+      <ol class="requests" id="requests"></ol>
+    </main>
+    <footer class="footer">
+      <small class="footer__version">v1.0</small>
+      <a class="footer__link" href="https://github.com/adam-lynch/askblocker" title="Source code"><img class="footer__icon" src="icons/002-github-logo.svg"/></a>
+      <a class="footer__link" href="https://github.com/adam-lynch/askblocker/blob/master/src/icons/credits.md" title="Icon credits"><img class="footer__icon" src="icons/001-creative-commons-license-symbol.svg"/></a>
+    </footer>
+    <div id="log"></div>
+  </body>
+</html>

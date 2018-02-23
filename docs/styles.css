@@ -1,0 +1,83 @@
+html {
+  padding: 0;
+  margin: 0;
+  background: #f1f1f1;
+  position: relative;
+}
+
+body {
+  margin: 20px;
+  padding: 40px 20px;
+  min-height: calc(100vh - 80px);
+  background: #fff;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+html::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid #f1f1f1;
+  transform: rotate(-45deg);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color:#4c83cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px;
+  color:#222;
+}
+
+h1 {
+  font-size:28px;
+}
+
+h2 {
+  color:#393939;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color:#494949;
+}
+
+p, ul, ol, table, pre, dl {
+  margin: 0 0 20px;
+}
+
+/* The screenshots */
+img + img {
+  display: none;
+}
+
+@media(min-width: 770px){
+  img + img {
+    display: inline;
+  }
+}
