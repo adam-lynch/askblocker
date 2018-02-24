@@ -7,7 +7,7 @@ Browser extensions which block overly-eager permission requests for notification
 ## Installation
 
 - [Install for Chrome / Vivaldi](https://chrome.google.com/webstore/detail/askblocker/eelfgnmggfgncoipinopobfcabnfknho).
-- [Install for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/askblocker/).
+- [Install for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/askblocker/). It even works on Firefox for Android :smile:.
 - [Install for Brave](https://github.com/brave/browser-laptop/wiki/Developer-Notes-on-Installing-or-Updating-Extensions).
 
 

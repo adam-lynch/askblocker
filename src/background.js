@@ -43,9 +43,11 @@ const updateDetailsForCurrentTab = function() {
     throw new Error("No current tab?!");
   }
   const numberOfBlockedRequests = tabs[currentTabId].blockedRequests.length;
-  browser.browserAction.setBadgeText({
-    text: (numberOfBlockedRequests && numberOfBlockedRequests.toString()) || ""
-  });
+  if(browser.browserAction.setBadgeText){ // doesn't exist in Firefox for Android
+    browser.browserAction.setBadgeText({
+      text: (numberOfBlockedRequests && numberOfBlockedRequests.toString()) || ""
+    });
+  }
 };
 
 const onMessageFromContentScript = function(message, sender) {
@@ -218,6 +220,8 @@ browser.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   }
 });
 
-browser.browserAction.setBadgeBackgroundColor({
-  color: "#b10000"
-});
+if(browser.browserAction.setBadgeBackgroundColor){ // doesn't exist in Firefox for Android
+  browser.browserAction.setBadgeBackgroundColor({
+    color: "#b10000"
+  });
+}
