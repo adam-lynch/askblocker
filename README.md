@@ -7,7 +7,7 @@ Browser extensions which block overly-eager permission requests for notification
 ## Installation
 
 - [Install for Chrome / Vivaldi](https://chrome.google.com/webstore/detail/askblocker/eelfgnmggfgncoipinopobfcabnfknho).
-- [Install for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/askblocker/). It even works on Firefox for Android :smile:.
+- [Install for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/askblocker/).
 - [Install for Brave](https://github.com/brave/browser-laptop/wiki/Developer-Notes-on-Installing-or-Updating-Extensions).
 
 
@@ -34,6 +34,8 @@ Permissions requests are blocked until you've interacted with the page; i.e. cli
 ## Why aren't there extensions for other browsers?
 
 There could be (not much of the code would have to change). Do you want to help? They wouldn't be less useful as the existing extensions though. For example, Microsoft Edge and Safari do not support the [Permissions API](https://w3c.github.io/permissions/) (at the time of writing this anyway), which means permission requests for some things like geolocation can't be blocked without blocking legitimate usage.
+
+I also couldn't quite get it to work in Firefox for Android, but I welcome any suggestions.
 
 
 ## Contributing
