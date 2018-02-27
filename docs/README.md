@@ -1,6 +1,6 @@
 # docs
 
-This directory contains stuff needed for documentation, including the website.
+This directory contains stuff needed for documentation, including the website and assets for extension stores.
 
 ## How to update the website content
 

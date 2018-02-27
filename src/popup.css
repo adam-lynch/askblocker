@@ -47,24 +47,14 @@ p {
   border-bottom: 5px solid #f3f3f3;
 }
 
-.head__icon {
-  height: 100%;
-  width: 35px;
-  max-height: 35px;
-  margin-right: 5px;
-}
-
 .head__main {
   display: inline-block;
 }
 
-.head__title {
-  font-size: 20px;
-  font-weight: normal;
-}
-
-.head__title-emphasis {
-  font-weight: bold;
+.head__title img {
+  display: block;
+  width: auto;
+  max-width: 160px;
 }
 
 .requests:not(:empty) {

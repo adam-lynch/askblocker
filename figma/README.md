@@ -1,0 +1,1 @@
+I used [Figma](https://www.figma.com) to create the icon and images needed for the extension stores. Feel free to update / improve these.
