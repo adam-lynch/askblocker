@@ -1,6 +1,6 @@
 # ![AskBlocker](docs/askBlocker-with-text.png)
 
-Browser extensions which block overly-eager permission requests for notifications, location, etc. For example, ones that happen before you've interacted with the page. This was created as part of [How to improve your permissions UX](https://adamlynch.com/improve-permissions-ux) (not published yet!).
+Browser extensions which block overly-eager permission requests for notifications, location, etc. For example, ones that happen before you've interacted with the page. This was created as part of [How to improve your permissions UX](https://adamlynch.com/improve-permissions-ux).
 
 ![A screenshot of the Chrome extension](docs/chrome-screenshot.png) ![A screenshot of the Firefox add-on](docs/firefox-screenshot.png)
 
