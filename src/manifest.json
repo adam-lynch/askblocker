@@ -2,8 +2,8 @@
   "manifest_version": 2,
   "name": "AskBlocker",
   "description": "Blocks overly-eager permission requests for notifications, location, etc. For example, before you've interacted with the page.",
-  "version": "1.0.6",
-  "homepage_url": "https://adam-lynch.com/askblocker",
+  "version": "1.0.7",
+  "homepage_url": "https://adamlynch.com/askblocker",
 
   "background": {
     "scripts": [
