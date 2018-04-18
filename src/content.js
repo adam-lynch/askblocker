@@ -482,4 +482,6 @@ _askBlocker.run = function() {
   }
 };
 
-_askBlocker.inject();
+if (document instanceof HTMLDocument) {
+  _askBlocker.inject();
+}
